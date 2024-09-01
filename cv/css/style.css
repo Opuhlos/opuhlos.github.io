@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-div {
+    padding-top: 3px;
+    padding-left: 16px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    font-size: 22px;
+}
+
+.contact-div {
+    padding-top: 14px;
+    padding-right: 16px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 470;
+    font-style: normal;
+    font-variation-settings:"wdth" 75;
+
+    font-size: 12
+}
+
+.contact-link:link {
+    color: #7c7c7c;
+    text-decoration: none;
+}
