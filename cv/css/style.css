@@ -20,6 +20,32 @@ body {
     font-size: 22px;
 }
 
+.title-text:link {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    font-size: 22px;
+
+    color: black;
+    text-decoration: none;
+}
+
+.title-text:visited {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    font-size: 22px;
+    
+    color: black;
+    text-decoration: none;
+}
+
 .page-div {
     display: flex;
     align-items: center;
@@ -53,6 +79,12 @@ body {
     padding-left: 20px;
 }
 
+/* When on the page corresponding to the clicked page option*/
+.page-div > p {
+    font-weight: 700;
+    padding-left: 20px;
+}
+
 svg {
     fill: #7c7c7c;
 }
@@ -61,6 +93,7 @@ svg:hover {
     fill: black;
 }
 
+/* Footer */
 .fixed-footer {
     display: flex;
     justify-content: center;
