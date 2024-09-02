@@ -20,8 +20,10 @@ body {
     font-size: 22px;
 }
 
-.contact-div {
-    padding-top: 14px;
+.page-div {
+    display: flex;
+    align-items: center;
+
     padding-right: 16px;
 
     font-family: "Noto Sans", sans-serif;
@@ -33,14 +35,30 @@ body {
     font-size: 12
 }
 
-.contact-link:link {
+.page-link:link {
     color: #7c7c7c;
     text-decoration: none;
 }
 
-.contact-link:visited {
+.page-link:visited {
     color: #7c7c7c;
     text-decoration: none;
+}
+
+.page-link:hover {
+    color: black;
+}
+
+.page-div > a {
+    padding-left: 20px;
+}
+
+svg {
+    fill: #7c7c7c;
+}
+
+svg:hover {
+    fill: black;
 }
 
 .fixed-footer {
