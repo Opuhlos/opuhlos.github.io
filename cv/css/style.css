@@ -129,3 +129,57 @@ svg:hover {
     text-decoration: none;
 }
 
+/* Card CSS */
+
+.grid-container {
+    height: 600px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    column-gap: 100px;
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 #5180a9;
+    transition: 0.3s;
+
+}
+
+.card-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px 0 #5180a9;
+  }
+
+.project-title {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-title-text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:"wdth" 200;
+    
+    font-size: 25px;
+}
+
