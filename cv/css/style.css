@@ -132,16 +132,15 @@ svg:hover {
 /* Card CSS */
 
 .grid-container {
-    height: 600px;
-    
-
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .three-col {
-    display: grid;
+    display: grid;  
     grid-template-columns: auto auto auto;
 
     column-gap: 100px;
