@@ -246,6 +246,7 @@ body {
 }
 
 .card {
+    position: relative;
     opacity: 0.5;
 
     height: 450px;
@@ -258,6 +259,7 @@ body {
 }
 
 .card-img {
+    height: 168.75px;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -315,10 +317,10 @@ li {
 }
 
 .card-bottom {
-    padding-top: 15px;
-    padding-right: 10px;
-    display:flex;
-    justify-content: end;
+    position:absolute;
+    left: 225px;
+    bottom: 10px;
+
 }
 
 .button {
