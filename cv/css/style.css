@@ -229,8 +229,7 @@ svg {
 
 
 
-/* Card CSS */
-
+/* -------- Card CSS -------- Card CSS -------- Card CSS -------- Card CSS -------- Card CSS -------- */
 .grid-container {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -254,7 +253,6 @@ svg {
 
     box-shadow: 0 4px 8px 0 #5180a9;
     transition: 0.3s;
-
 }
 
 .card-img {
@@ -267,18 +265,39 @@ svg {
     box-shadow: 0 10px 20px 0 #5180a9;
   }
 
-.project-title {
-    display:flex;
-    justify-content: space-around;
+.project-title-grid {
+    height:50px;
+    display:grid;
+    grid-template-columns: 3fr 2fr;
     align-items: center;
+
 }
 
 .project-title-text {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 200;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
-    font-variation-settings:"wdth" 200;
-    
-    font-size: 25px;
+    font-size: 20px;
+    color: #626262;
+    padding-left: 15px;
 }
 
+.project-date-text {
+    padding-right: 10px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--link-color);
+}
+
+.project-description {
+    padding-right: 10px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 12px;
+    color: #626262;
+}
+/* -------- Card CSS -------- Card CSS -------- Card CSS -------- Card CSS -------- Card CSS -------- */
