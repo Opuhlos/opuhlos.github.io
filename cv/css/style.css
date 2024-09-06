@@ -4,7 +4,20 @@
 }
 
 body {
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
     margin: 0;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .flex-nav {
@@ -180,8 +193,7 @@ svg {
 
 
 
-
-/* Footer */
+/* ------ Footer ------ Footer ------ Footer ------ Footer ------ Footer ------ Footer ------ Footer ------*/
 .fixed-footer {
     display: flex;
     justify-content: center;
@@ -213,6 +225,9 @@ svg {
     color: #ffffff;
     text-decoration: none;
 }
+/* ------ Footer ------ Footer ------ Footer ------ Footer ------ Footer ------ Footer ------ Footer ------*/
+
+
 
 /* Card CSS */
 
