@@ -368,14 +368,12 @@ li {
 
 /* ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ */
 .contact-container {
-    display: grid;
-    grid-template-columns: 600px 1fr;   
+    display: flex;
     height: 500px;
     align-items: center;
     justify-content: center;
-    place-items: center;
+    gap: 100px;
 }
-
 
 /* ---------- Email Form ---------- Email Form ---------- Email Form ---------- Email Form ---------- */
 .email-form-card {
@@ -387,6 +385,7 @@ li {
     align-items: center;
     width: 400px;
 }
+
 
 .one-col {
     display: grid;
@@ -506,8 +505,29 @@ input[type=submit]:hover {
     transition: 0.3s;
     background-color: var(--secondary-color);
 }
-
-
 /* ---------- Email Form ---------- Email Form ---------- Email Form ---------- Email Form ---------- */
+
+/* -------------- Image Section -------------- Image Section -------------- Image Section -------------- */
+.image-decoration-container {
+    padding-top: 90px;
+}
+
+.image-bottom {
+    display: flex;
+    margin: 0;
+    padding-top: 0;
+    justify-content: space-between;
+}
+
+.image-decoration-text{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: #ababab;
+    font-size: 14px;
+}
+/* -------------- Image Section -------------- Image Section -------------- Image Section -------------- */
 
 /* ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ */
