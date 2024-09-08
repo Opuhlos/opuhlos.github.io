@@ -559,7 +559,7 @@ hr.haa-line {
 }
 
 .menu-link:link {
-    color: #ffffff;
+    color: var(--link-color);
     text-decoration: none;
     transition: 0.3s;
 }
