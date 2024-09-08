@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #1994ff;
-    --darkened-primary: #1271ec;
+    --primary-color: #0B2F9F;
+    --darkened-primary: #161D6F;
+    --footer-color: #F4B860;
     --secondary-color: #4dab42;
     --link-color: #7c7c7c;
 }
@@ -39,7 +40,7 @@ body {
 
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 450;
+    font-weight: 700;
     font-style: normal;
     font-variation-settings:"wdth" 100;
 
@@ -59,7 +60,7 @@ body {
 
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 450;
+    font-weight: 700;
     font-style: normal;
     font-variation-settings:"wdth" 100;
 
@@ -93,7 +94,7 @@ body {
 /* ------ Splash ------ Splash ------ Splash ------ Splash ------ Splash ------ Splash ------ Splash ------ */
 .splash {
     display: grid;
-    grid-template-columns: 348.39px 1fr;
+    grid-template-columns: 360.75px 1fr;
 }
 
 #info-bar {
@@ -144,17 +145,75 @@ body {
     font-size: 14px;
 }
 
-h1 {
+h2 {
     margin-top: 4px;
     margin-bottom: 0px;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 390;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
 }
 
+h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: var(--footer-color);
+    font-size: 60px;
+    margin: 0;
+}
+
+#tag-line {
+    margin: 0;
+    color: #565656;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.tag-container {
+    position: relative;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.palette {
+    margin-top: 30px;
+    margin-right: 9%;
+    display: flex;
+    justify-content: end;
+}
+
+.block1 {
+    width: 30px;
+    height: 30px;
+    background-color: var(--darkened-primary);
+}
+
+.block2 {
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-color);
+}
+
+.block3 {
+    width: 30px;
+    height: 30px;
+    background-color: var(--secondary-color);
+}
+
+.block4 {
+    width: 30px;
+    height: 30px;
+    background-color: var(--footer-color);
+}
 /* ------ Splash ------ Splash ------ Splash ------ Splash ------ Splash ------ Splash ------ Splash ------ */
 
 
@@ -276,7 +335,7 @@ h1 {
 
     color: #ffffff;
 
-    background-color: var(--primary-color);
+    background-color: var(--footer-color);
 }
 
 .footer {
@@ -289,7 +348,7 @@ h1 {
 
     color: #ffffff;
 
-    background-color: var(--primary-color);
+    background-color: var(--footer-color);
 }
 
 .footer-text {
