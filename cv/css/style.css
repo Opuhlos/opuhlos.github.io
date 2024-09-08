@@ -6,6 +6,7 @@
     --tertiary-color: #C2095A;
     --tertiary-darkened: #a5044a;
     --link-color: #7c7c7c;
+    --skill-column-height: 600px;
 }
 
 body {
@@ -353,7 +354,93 @@ h1 {
     color: #ffffff;
 }
 
+hr.lea-line {
+    border: 3px solid var(--tertiary-darkened);
+    border-radius: 5px;
+    width: 96.5%;
+}
+
 /* ------------------------ Leadership and Experience ------------------------ Leadership and Experience ------------------------ */
+
+
+
+/* ------ Skills ------ kills ------ kills ------ kills ------ kills ------ kills ------ */
+h1.skills {
+    background-color: var(--darkened-primary);
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.skills-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.column1 {
+    height: var(--skill-column-height);
+    background-color: var(--primary-color);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column2 {
+    height: var(--skill-column-height);
+    background-color: #5887FF;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column3 {
+    height: var(--skill-column-height);
+    background-color: #55C1FF;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column4 {
+    height: var(--skill-column-height);
+    background-color: #A682FF;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1.category {
+    padding-top: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+p.skills {
+    color: white;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+    font-size: 15px;
+}
+/* ------ Skills ------ kills ------ kills ------ kills ------ kills ------ kills ------ */
 
 
 
