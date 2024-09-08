@@ -444,6 +444,79 @@ p.skills {
 
 
 
+/* ----------------- Honors and Awards ----------------- Honors and Awards ----------------- Honors and Awards ----------------- */
+.haa-section-container {
+    width: 100%;
+    height: 270px;
+    background-color: var(--secondary-color);
+}
+
+.haa-top {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    place-items: center;
+}
+
+.haa-title {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: white;
+    font-size: 60px;
+    padding-left: 10px;
+
+}
+
+.award-block-one {
+    grid-column-start: 3;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    border: 5px solid #328928;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.award-block-two {
+    width: 150px;
+    grid-column-start: 5;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    border: 5px solid #328928;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.award-title {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 3px 0;
+    font-variation-settings:"wdth" 100;
+}
+
+.award-det {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 15px;    
+}
+
+hr.haa-line {
+    border: 3px solid #328928;
+    border-radius: 5px;
+    width: 98.5%;
+}
+/* ----------------- Honors and Awards ----------------- Honors and Awards ----------------- Honors and Awards ----------------- */
+
+
+
 /* ------------ Menu Options ------------ Menu Options ------------ Menu Options ------------ Menu Options ------------ */
 .menu-div {
     display: flex;
