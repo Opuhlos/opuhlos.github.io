@@ -98,7 +98,6 @@ body {
 
 #info-bar {
     width: auto;
-    height: 700px;
     background-color: var(--primary-color);
 
     display: flex;
@@ -107,13 +106,13 @@ body {
 }
 
 #profile {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 50%;
     border-style: solid;
     border-color: #ffffff;
     border-width: 5px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
