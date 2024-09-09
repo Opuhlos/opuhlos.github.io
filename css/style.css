@@ -895,6 +895,43 @@ input[type=text]:not(:placeholder-shown) {
     color: #626262;
 }
 
+input[type=email]:not(:placeholder-shown) {
+    border-color: var(--secondary-color);
+    color: #626262;
+}
+
+input[type=email] {
+    width: 300px;
+    transition: 0.2s;
+
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #7c7c7c;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+input[type=email]:focus {
+    transition: 0.2s;
+    outline: 0;
+
+    border: 2px solid var(--primary-color);
+}
+
+input[type=mail]:active {
+    transition: 0.2s;
+    outline: 0;
+}
+
+
 #message {
     transition: 0.2s;
     border: 2px;
