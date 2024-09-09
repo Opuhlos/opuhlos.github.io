@@ -1013,5 +1013,32 @@ input[type=submit]:hover {
 
 
 /* -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- */
+.art-board {
+    width: 80vw;
 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    column-gap: 12px;
+}
+
+.art-img {
+    border-radius: 20px;
+}
+
+.art-img-vertical {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.art-subtitle {
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#232323;
+    font-size: 14px;
+}
 /* -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- */
