@@ -1014,36 +1014,38 @@ input[type=submit]:hover {
 
 /* -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- Art Page -------- */
 :root {
-    --art-card-width: 250px;
+    --art-card-width: 300px;
 }
 
 .art-board {
-    margin: 0;
-    padding: 0;
-    width: 90vw;
-
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-
     display: grid;
-    grid-template-columns: repeat(autofill, 250px);
-    justify-content: center;
+    grid-template-columns: repeat(4, 320px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    justify-items: center;
+}
+
+.art-flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .art-card {
     padding: 0;
     margin: 5px 10px;
+    width: var(--art-card-width);
 }
 
 .art-card > img {
     border-radius: 20px;
-    width: 250px;
+    width: var(--art-card-width);
 }
 
 .art-card > p {
     padding-left: 8px;
     margin-top: 0px;
+    margin-bottom: 0px;
 
     font-family: "Prompt", sans-serif;
     font-weight: 400;
