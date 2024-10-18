@@ -1,5 +1,3 @@
-# HTML Project | Personal CV Assignment
+# CV
 
-Simple CV HTML web page.
-
-View the site [here](https://opuhlos.github.io/)
+Next.js CV web page.
