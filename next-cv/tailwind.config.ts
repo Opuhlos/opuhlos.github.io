@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        greyLink: "var(--link-color)",
+        primary: "var(--primary-color)",
       },
     },
   },
