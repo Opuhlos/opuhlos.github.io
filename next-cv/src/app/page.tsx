@@ -1,10 +1,10 @@
-import Nav from "./components/Nav"
+import Nav from "./components-deprecated/Nav"
 
 
 export default function Home() {
   return (
-    <div className="bg-black">
-      <Nav/>
+    <div>
+      
     </div>
   );
 }
