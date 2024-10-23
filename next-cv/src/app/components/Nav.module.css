@@ -1,0 +1,120 @@
+.flexNav {
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameDiv {
+    background-color: var(--primary-color);
+    color: #ffffff;    
+    padding-left: 16px;
+    padding-right: 16px;
+
+    display: flex;
+    align-items: center;
+
+    height: 73.59px;
+
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    font-size: 22px;
+}
+
+.menuDiv {
+    display: flex;
+    align-items: center;
+
+
+    font-optical-sizing: auto;
+    font-weight: 470;
+    font-style: normal;
+    font-variation-settings:"wdth" 75;
+
+    font-size: 12
+}
+
+.menuOption {
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    transition: 0.3s;
+    
+    height: 73.6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menuOption:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.menuOption:hover > a {    
+    color: #ffffff;
+}
+
+.menuLink:link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menuLink:visited {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+/* When on the page corresponding to the clicked page option*/
+.menuOptionSelected {
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: var(--primary-color);
+    color: #ffffff;
+
+    height: 73.6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menuLinkedinOption {
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    transition: 0.3s;
+    
+    height: 73.6px;
+    border-bottom-left-radius: 10px;
+}
+
+.menuLinkedinOption:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.menuLinkedinOption:hover #linkedinSVG {
+    background-color: var(--primary-color);
+    fill: #ffffff;
+    transition: 0.3s;
+}
+
+#linkedinSVG {
+    transition: 0.3s;
+    fill: var(--link-color);
+}

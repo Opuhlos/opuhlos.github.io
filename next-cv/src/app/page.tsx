@@ -1,10 +1,10 @@
-import Nav from "./components-deprecated/Nav"
+import Nav from "./components/Nav";
 
 
 export default function Home() {
   return (
     <div>
-      
+      <Nav/>
     </div>
   );
 }
