@@ -1,0 +1,43 @@
+.fixedFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 20px;
+
+    color: #ffffff;
+
+    background-color: var(--footer-color);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 30px;
+
+    color: #ffffff;
+
+    background-color: var(--footer-color);
+}
+
+.footerText {
+    color: #ffffff;
+
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    font-variation-settings:"wdth" 55;
+}
+
+.footerText:link {
+    color: #ffffff;
+    text-decoration: none;
+}
