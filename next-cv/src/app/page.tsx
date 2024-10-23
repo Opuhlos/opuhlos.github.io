@@ -1,4 +1,4 @@
-import Nav from "./components/Nav";
+import MainNav from "./components/Navigation/MainNav";
 import Splash from "./components/Splash";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills"
@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 export default function Home() {
   return (
     <div>
-      <Nav/>
+      <MainNav/>
       <Splash/>
       <Experience/>
       <Skills/>
