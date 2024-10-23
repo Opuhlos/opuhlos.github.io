@@ -38,8 +38,12 @@ body {
 .name-div {
     background-color: var(--primary-color);
     color: #ffffff;    
-    padding-left: 16px;
-    padding-right: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 360.75px;
 
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
@@ -53,11 +57,11 @@ body {
 .name-link-div {
     display: flex;
     align-items: center;
+    justify-content: center;
 
     color: var(--link-color);
     
-    padding-left: 16px;
-    padding-right: 25px;
+    width: 360.75px;
 
     transition: 0.3s;
 
