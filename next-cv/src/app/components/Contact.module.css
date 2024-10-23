@@ -1,0 +1,191 @@
+/* ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ Contact Page ------------ */
+.contactContainer {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* ---------- Email Form ---------- Email Form ---------- Email Form ---------- Email Form ---------- */
+.emailFormCard {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: #aaaaaa;
+    border-radius: 20px;
+    border-style: solid;
+    align-items: center;
+    width: 400px;
+}
+
+.oneCol {
+    display: grid;
+    grid-template-rows: 10px 20px 1fr 1fr 3fr;
+    row-gap: 15px;
+    justify-content: center;
+}
+
+.centerElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reachText {
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: #626262;
+    font-size: 14px;
+}
+
+.emailText {
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: black;
+    font-size: 20px;
+}
+
+.input[type=text]:focus {
+    transition: 0.2s;
+    outline: 0;
+
+    border: 2px solid var(--primary-color);
+}
+
+.input[type=text]:active {
+    transition: 0.2s;
+    outline: 0;
+}
+
+.input[type=text] {
+    width: 300px;
+    transition: 0.2s;
+
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #7c7c7c;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.input[type=text]:not(:placeholder-shown) {
+    border-color: var(--secondary-color);
+    color: #626262;
+}
+
+.inputMail:not(:placeholder-shown) {
+    border-color: var(--secondary-color);
+    color: #626262;
+}
+
+.inputMail {
+    width: 300px;
+    transition: 0.2s;
+
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #7c7c7c;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+
+
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.inputMail:focus {
+    transition: 0.2s;
+    outline: 0;
+
+    border: 2px solid var(--primary-color);
+}
+
+.inputMail:active {
+    transition: 0.2s;
+    outline: 0;
+}
+
+
+.message {
+    transition: 0.2s;
+    border: 2px;
+    border-style: solid;
+    border-color: #7c7c7c;
+    outline: 0;
+    border-radius: 10px;
+    width: auto;
+    resize: none;
+
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 13px;
+
+    padding-top: 5px;
+    padding-left: 12px;
+}
+
+.message:not(:placeholder-shown) {
+    border-color: var(--secondary-color);
+    color: #626262;
+}
+
+.message:focus {
+    border-color: var(--primary-color);
+}
+
+.inputButton {
+    transition: 0.3s;
+
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    width: 120px;
+    height: 25px;
+    border-style: none;
+
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.inputButton:hover {
+    transition: 0.3s;
+    background-color: var(--secondary-color);
+}
+
+.imageDecorationContainer {
+    padding-top: 90px;
+}
+
+.imageBottom {
+    display: flex;
+    margin: 0;
+    padding-top: 0;
+    justify-content: space-between;
+}
+
+.imageDecorationText{
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: #ababab;
+    font-size: 14px;
+}

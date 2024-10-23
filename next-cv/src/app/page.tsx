@@ -1,9 +1,9 @@
-import MainNav from "./components/Navigation/MainNav";
+import MainNav from "./components/Navigations/MainNav";
 import Splash from "./components/Splash";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills"
 import Honors from "./components/Honors";
-import Footer from "./components/Footer"
+import Footer from "./components/Footers/Footer";
 
 
 export default function Home() {
