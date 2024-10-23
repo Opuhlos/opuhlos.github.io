@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import Splash from "./components/Splash";
+import Experience from "./components/Experience";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Nav/>
       <Splash/>
+      <Experience/>
     </div>
   );
 }
