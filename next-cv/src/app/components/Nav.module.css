@@ -9,11 +9,11 @@
 .nameDiv {
     background-color: var(--primary-color);
     color: #ffffff;    
-    padding-left: 16px;
-    padding-right: 25px;
+    width: 360px;;
 
     display: flex;
     align-items: center;
+    justify-content: center;
 
     height: 73.59px;
 
