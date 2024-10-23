@@ -9,7 +9,7 @@ export default function ProjectsNav() {
         <nav className={`${notosans.className} ${styles.flexNav}`}>
         
             <div className={`${notosans.className} ${styles.nameLinkDiv}`}>
-                <p><Link href="/" className={styles.menuLink}>ERIC HUY NGUYEN // opuhlos</Link></p> 
+                <p><Link href="/" className={styles.nameLink}>ERIC HUY NGUYEN // opuhlos</Link></p> 
             </div>
 
             <div className={`${notosans.className} ${styles.menuDiv}`}>
