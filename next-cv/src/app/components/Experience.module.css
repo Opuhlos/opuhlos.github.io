@@ -4,8 +4,7 @@
     background-color: var(--tertiary-color);
 }
 
-#lea {
-    font-family: "Noto Sans", sans-serif;
+.lea {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
@@ -20,7 +19,7 @@
     display: flex;
     justify-content: end;
     margin-right: 10px;
-    transform: translateY(-22px);
+    transform: translateY(-25.5px);
 }
 
 @media (max-width: 1100px) {
@@ -52,7 +51,6 @@
 
 .listDD {
     color: white;
-    font-family: "Prompt", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#ffffff;
@@ -61,7 +59,6 @@
 }
 
 .listDL {
-    font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -69,13 +66,13 @@
     padding-bottom: 3px;
 }
 
-#listGpLink {
+.listGpLink {
     transition: 0.3s;
     color: var(--footer-color);
     text-decoration: none;
 }
 
-#listGpLink:hover {
+.listGpLink:hover {
     transition: 0.3s;
     color: #ffcd82;
     text-decoration: none;
@@ -89,7 +86,7 @@
     padding-bottom: 20px;
 }
 
-#erwinQuoteBlock {
+.erwinQuoteBlock {
     padding: 0 10px 0 10px;
     border-radius: 10px;
     background-color: var(--tertiary-darkened);
@@ -108,7 +105,6 @@
 
 .quote {
     color: white;
-    font-family: "Prompt", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#ffffff;
@@ -120,7 +116,6 @@
 .quoter {
     margin-left: 5px;
     margin-top: 2px;
-    font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
