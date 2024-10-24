@@ -26,6 +26,16 @@
     justify-content: end;
 }
 
+.h1 {
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: var(--footer-color);
+    font-size: 60px;
+    margin: 0;
+}
+
 .block1 {
     width: 30px;
     height: 30px;
