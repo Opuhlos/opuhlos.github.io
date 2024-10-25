@@ -14,7 +14,7 @@ export default function MainNav() {
             </div>
 
             <div className={`${notosans.className} ${styles.menuDiv}`}>
-                <div className={styles.menuOption}> <Link href="/pages/art" className={styles.menuLink}>ART</Link> </div>
+                {/* <div className={styles.menuOption}> <Link href="/pages/art" className={styles.menuLink}>ART</Link> </div> */}
 
                 <div className={styles.menuOption}> <Link href="/pages/projects" className={styles.menuLink}>PROJECTS</Link> </div>
                 

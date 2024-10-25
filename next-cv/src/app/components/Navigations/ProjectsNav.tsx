@@ -13,7 +13,7 @@ export default function ProjectsNav() {
             </div>
 
             <div className={`${notosans.className} ${styles.menuDiv}`}>
-                <div className={styles.menuOption}> <Link href="/pages/art" className={styles.menuLink}>ART</Link> </div>
+                {/* <div className={styles.menuOption}> <Link href="/pages/art" className={styles.menuLink}>ART</Link> </div> */}
 
                 <div className={styles.menuOptionSelected}> PROJECTS </div>
                 

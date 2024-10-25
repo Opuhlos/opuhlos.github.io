@@ -1,9 +1,8 @@
 import Education from './Education'
 import styles from './Splash.module.css'
-import {Archivo_Black, Noto_Sans, Prompt} from 'next/font/google'
+import {Archivo_Black, Noto_Sans} from 'next/font/google'
 
 const notosans = Noto_Sans({subsets: ['latin']})
-const prompt = Prompt({subsets: ['latin'], weight: ["400", "300"]})
 const archivo = Archivo_Black({subsets: ['latin'], weight: ["400"]})
 
 
