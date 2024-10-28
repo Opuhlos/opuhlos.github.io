@@ -5,11 +5,22 @@ import Skills from "./components/Skills"
 import Honors from "./components/Honors";
 import Footer from "./components/Footers/Footer";
 
+export interface Person {
+  first: String;
+  middle: String;
+  last: String;
+}
+
+const identity: Person = {
+  first: "ERIC",
+  middle: "HUY",
+  last: "NGUYEN",
+}
 
 export default function Home() {
   return (
     <div>
-      <MainNav/>
+      <MainNav identity={identity}/>
       <Splash/>
       <Experience/>
       <Skills/>

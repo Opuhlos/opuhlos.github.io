@@ -1,16 +1,17 @@
 import styles from './Nav.module.css';
 import Link from 'next/link'
 import {Noto_Sans} from 'next/font/google'
+import {Person} from '../../page'
 
 const notosans = Noto_Sans({subsets: ['latin']})
 
-export default function MainNav() {
+export default function MainNav({identity}:{identity: Person}) {
     return(
         <nav className={`${notosans.className} ${styles.flexNav}`}>
             
 
             <div className={styles.nameDiv}>
-                ERIC HUY NGUYEN // opuhlos
+                {identity.first} {identity.middle} {identity.last} // opuhlos
             </div>
 
             <div className={`${notosans.className} ${styles.menuDiv}`}>
